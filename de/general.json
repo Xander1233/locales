@@ -9,8 +9,8 @@
             "onlyDJ": "Du brauchst hierfür die DJ-Rolle."
         },
         "kickedFromChannel": "Ich wurde von dem Voice-Channel gekickt. Stoppe die Musik und setze die Wiedergabeliste zurück.",
-        "noListeners": "In `{channel}` ist niemand mehr, also pausiere ich die Musik.",
-        "left": "Ich trennte mich von `{channel}`, da es mehr als 5 Minuten inaktiv war."
+        "noListeners": "Der `{channel}` ist leer, also pausiere ich die Musik.",
+        "left": "Der Channel `{channel}` war länger als 5 Minuten inaktiv, deshalb habe ich mich von diesem Channel getrennt."
     },
     "moderation": {
         "errors": {
@@ -35,9 +35,9 @@
             }
         },
         "phrase": {
-            "warn": "{user}, nutze bitte keine Wörter in der Server-Blacklist!",
+            "warn": "{user}, nutze bitte keine Wörter aus der Server-Blacklist!",
             "log": {
-                "title": "Wort in der Server-Blacklist erkannt",
+                "title": "Wort aus der Server-Blacklist erkannt",
                 "word": "Wort"
             }
         },
@@ -70,15 +70,15 @@
         "time": "Länge",
         "noReasonedCase": "Moderator, nutze `{prefix}reason {case} <Grund>`",
         "minimal": {
-            "banNoDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}**: `{reason}`",
-            "banWithDuration": "🚨 `#{case}`: **{user}** (`{userid}`) was banned by **{moderator}** for **{duration}**: `{reason}`",
-            "unban": "🔧 `#{case}`: **{user}** (`{userid}`) was unbanned by **{moderator}**: `{reason}`",
-            "kick": "👢 `#{case}`: **{user}** (`{userid}`) was kicked by **{moderator}**: `{reason}`",
-            "muteNoDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}**: `{reason}`",
-            "muteWithDuration": "😶 `#{case}`: **{user}** (`{userid}`) was muted by **{moderator}** for **{duration}**: `{reason}`",
-            "unmute": "😮 `#{case}`: **{user}** (`{userid}`) was unmuted by **{moderator}**: `{reason}`",
-            "warn": "⚠️ `#{case}`: **{user}** (`{userid}`) was warned by **{moderator}**: `{reason}`",
-            "noReason": "No Reason"
+            "banNoDuration": "🚨 `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** gebannt: `{reason}`",
+            "banWithDuration": "🚨 `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** für **{duration}** gebannt: `{reason}`",
+            "unban": "🔧 `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** entbannt: `{reason}`",
+            "kick": "👢 `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** gekickt: `{reason}`",
+            "muteNoDuration": "😶 `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** gestummt: `{reason}`",
+            "muteWithDuration": "😶 `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** für **{duration}** gestummt: `{reason}`",
+            "unmute": "😮 `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** entstummt: `{reason}`",
+            "warn": "⚠️ `#{case}`: **{user}** (`{userid}`) wurde von **{moderator}** bestraft: `{reason}`",
+            "noReason": "Keine Begründung"
         }
     },
     "counters": {
@@ -88,8 +88,8 @@
     },
     "restrictions": {
         "blacklist": {
-            "blacklistedChannel": "Du kannst `{command}` nicht ausführen in {channel}.",
-            "blacklistedRole": "Du kannst `{command}` nicht ausführen weil du eine Rolle in der Blacklist hast."
+            "blacklistedChannel": "Du kannst `{command}` nicht in {channel} ausführen.",
+            "blacklistedRole": "Du kannst `{command}` nicht ausführen, weil du eine Rolle aus der Blacklist hast."
         }
     },
     "logging": {
@@ -98,7 +98,7 @@
             "content": "Inhalt",
             "bulkDelete": "**{number}** Nachrichten gelöscht in <#{channel}>",
             "messageEdited": "Nachricht bearbeitet in <#{channel}>",
-            "oldMessage": "Bevor",
+            "oldMessage": "Vorher",
             "newMessage": "Nachher"
         }
     },
@@ -112,11 +112,11 @@
     },
     "members": "Mitglieder",
     "tickets": {
-        "notSetup": "{guild} has not setup tickets."
+        "notSetup": "{guild} hat keine setup tickets."
     },
     "suggestions": {
-        "notSetup": "{guild} has not setup suggestions.",
-        "invalidSuggestion": "{id} is not a suggestion.",
-        "noFeedback": "No feedback was provided for the suggestion"
+        "notSetup": "{guild} hat keine setup vorschläge.",
+        "invalidSuggestion": "{id} ist kein Vorschlag.",
+        "noFeedback": "Es gibt keine Rückmeldung für deinen Vorschlag"
     }
 }
